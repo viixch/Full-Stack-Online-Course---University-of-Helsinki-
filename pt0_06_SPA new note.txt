@@ -1,0 +1,10 @@
+title pt0_06_SPA new note
+
+
+note over server:
+Using the js-code, the event handler prevents the default method.
+It creates a new note and adds it to the notes list, 
+rerenders the notes list and sends it to the server. 
+end note
+
+broswer->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
